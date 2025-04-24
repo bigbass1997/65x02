@@ -38,6 +38,8 @@ Then for each test:
 
 If you aren't emulating individual cycles (skipped step #3), you can still count how many elements are contained in the `cycles` list and compare with the number of cycles your emulator should have taken to perform the instruction.
 
+If you do perform step #3, also ensure only **one** bus operation occurs per cycle.
+
 ## Example
 
 Below is an example of a single test:
